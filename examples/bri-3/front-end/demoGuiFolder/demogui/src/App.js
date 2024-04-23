@@ -1,9 +1,10 @@
 import logo from './logo.svg';
+// App.js
 import React from 'react';
 import './App.css';
 import ConnectWalletButton from './ConnectWalletButton'; // Import the button component
 import Login from './Login'; // Import the Login component
-import SignStringButton from './SignStringButton';
+import SignStringButton from './SignStringButton'; // Import the SignStringButton component
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           Learn React
         </a>
         <ConnectWalletButton /> {/*Use the button component*/}
-        <SignStringButton /> {/*Use the button component*/}
+        <SignStringButton /> {/* Include the SignStringButton component */}
         {/* <AccountBalance /> Use the AccountBalance component */}
       </header>
     </div>

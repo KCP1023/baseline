@@ -23,7 +23,7 @@ function storeSignedString(signedString) {
     localStorage.setItem('signedString', signedString);
 }
 
-async function generateAndSignString() {
+async function GenerateAndSignString() {
     const randomString = generateRandomString();
     console.log('Random String:', randomString);
 
@@ -44,4 +44,4 @@ async function generateAndSignString() {
     }
 }
 
-export default { generateAndSignString };
+export default GenerateAndSignString;
