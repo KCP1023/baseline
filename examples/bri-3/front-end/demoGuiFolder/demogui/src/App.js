@@ -10,19 +10,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Login /> {/* Use the Login component */}
+        {/* <Login /> Use the Login component */}
+        <a> 
+          Bri-3 DEMOGUI
+        </a>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
         <ConnectWalletButton /> {/*Use the button component*/}
         <SignStringButton /> {/* Include the SignStringButton component */}
         {/* <AccountBalance /> Use the AccountBalance component */}
