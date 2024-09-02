@@ -5,8 +5,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  animation: App-logo-spin infinite 2s linear;
-  animation-direction: alternate;
+  animation: App-logo-spin infinite 9s linear;
+  animation-direction: normal;
 }
 
 .App-header {
@@ -42,7 +42,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(60deg);
+    transform: rotate(360deg);
   }
 }
 
